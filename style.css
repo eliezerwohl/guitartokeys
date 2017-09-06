@@ -1,8 +1,5 @@
 * { box-sizing:border-box; }
 
-.played {
-	background:red;
-}
 /*paino css credit to https://codepen.io/zastrow/pen/oDBki*/
 /*body{ margin:0; background:#222; }*/
 ul {
@@ -54,4 +51,8 @@ ul li:last-child { border-radius:0 5px 5px 5px; }
 
 .fret {
 	width: 40px;
+	font-size: 15px;
+	background-color: white;
+	border:1px solid gray;
+	margin:2px 1px;
 }

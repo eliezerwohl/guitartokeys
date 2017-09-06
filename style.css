@@ -51,3 +51,7 @@ ul li:last-child { border-radius:0 5px 5px 5px; }
 .played {
 	background:red;
 }
+
+.fret {
+	width: 40px;
+}

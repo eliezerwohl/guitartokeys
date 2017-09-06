@@ -1,6 +1,8 @@
 * { box-sizing:border-box; }
 
-
+.played {
+	background:red;
+}
 /*paino css credit to https://codepen.io/zastrow/pen/oDBki*/
 /*body{ margin:0; background:#222; }*/
 ul {
@@ -45,3 +47,7 @@ ul .white:active {
 
 ul li:first-child { border-radius:5px 0 5px 5px; }
 ul li:last-child { border-radius:0 5px 5px 5px; }
+
+.played {
+	background:red;
+}

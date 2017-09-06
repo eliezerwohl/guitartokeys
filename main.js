@@ -1,3 +1,9 @@
+var key = document.getElementsByClassName('key');
+for (var i = 0; i < key.length; i++) {
+	key[i].addEventListener("click", function(){
+		console.log(this.getAttribute("data-key"))
+	})
+}
 
 var notesArray = ["A", "A#", "B", "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#"];
 var stringNotes = ["E", "A", "D", "G", "B", "E"]

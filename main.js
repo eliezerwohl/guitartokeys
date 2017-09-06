@@ -11,7 +11,8 @@ function guitarRender(tuning) {
     for (var j = notesArray.indexOf(stringNotes[i]) - tuning; j < neck; j++) {
       if (counter == 1 || counter == 12) {
         var span = document.createElement("span");
-        span.innerText = "[]";
+        if (counter == 1 ){ span.innerText = "[]"; }
+        else { (span.innerText = "||"); }
         guitar.appendChild(span);
       }
       counter++;
